@@ -1,0 +1,151 @@
+.button{
+    font-size:medium;
+    font-family:cursive;
+    background-color:rgb(209, 175, 203);
+    color:rgb(163, 97, 108);
+    text-align:center;
+    border-width:4px;
+    border-radius:20%;
+    margin:20px auto;
+    display:inline-block;
+    position: relative;
+    width:fit-content;
+    padding:10px 20px;
+    align-items:center;
+    border-color: palevioletred;
+    text-shadow: 4px;
+    padding: 10px 20px;
+    transition:0.3s;
+   text-decoration: none;
+   justify-content: center;
+   cursor: pointer;
+}.HEADER{background-color: rgb(181, 74, 92);
+
+}
+
+
+.button:hover{
+    color:yellow;
+    background-color: rgb(77, 5, 69);
+}
+.backg{
+  background-image: url('bakeback.webp') ;
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position:absolute;
+  display: flex;
+ flex-direction: column;
+background-blend-mode: overlay;
+backdrop-filter: blur(2px);
+}
+.header{
+  background-color: rgb(111, 20, 50);
+} 
+.aboutus{
+   background-image: url('bakeback.webp') ;
+  background-size: cover;
+  position:absolute;
+  background-repeat: repeat-y ;
+  color: rgb(160, 40, 60);
+text-align: center;
+content:url('')
+}
+.offpics 
+{
+  animation: mymove 1s infinite;
+}  
+.footer{
+  color: rgb(111, 20, 50);
+}
+.down{
+   ruby-position: left ;
+   background-color: rgb(106, 27, 53);
+   background-blend-mode: lighten;
+}
+.body{
+  background-image: url('bakeback.webp') ;
+  background-color: rgb(249, 208, 216);
+  background-blend-mode: lighten;
+ font-size: larger;
+}.col{
+background-color: bisque;
+position:absolute;
+}
+.pic1{
+  background-image: url('pic1.jpg') ;
+  position: absolute;
+   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+  width: 100%;
+  height:100%;
+top:85px;
+left:70px;
+
+}
+.pic2{
+  background-image: url('pic2.jpg') ;
+  position: absolute;
+   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  width: 100%;
+  height:100%;
+top:85px;
+
+
+}
+.pic3{
+  background-image: url('pic3.jpg') ;
+  position: absolute;
+   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left bottom;
+  width: 100%;
+  height:100%;
+top:300px;
+left:70px;
+
+
+}
+.pic4{
+  background-image: url('pic4.jpg') ;
+  position: absolute;
+   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  width: 100%;
+  height:100%;
+top:300px;}
+.offer{
+  
+
+}
+.logo{
+  content:url('logo.jpg');
+  top:50px;
+  left:1000px;
+
+}
+.pic6{
+  background-image: url('pic6.jpg') ;
+  position: absolute;
+   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left bottom;
+  width: 100%;
+  height:100%;
+top:500px;
+left:70px;}
+.pic5{
+  background-image: url('pic5.jpg') ;
+  position: absolute;
+   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  width: 100%;
+  height:100%;
+top:500px;
+}
